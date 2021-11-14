@@ -1,0 +1,100 @@
+
+
+@font-face {
+    font-family: 'Rubik', sans-serif;
+    src: url(/fonts/static/Rubik-Medium.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    margin: 200px auto;
+    background: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.card-text{
+    color: white !important;
+    font-size: 35px !important;
+    font-family: 'Rubik', sans-serif !important;
+    /* font-weight: ; */
+    
+}
+span{
+    color: hsl(235, 45%, 61%);
+    font-weight: 300;
+}
+.tasks{
+    color: white !important;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.small-card{
+    background: hsl(235, 46%, 20%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    width: 13rem;
+    z-index: +2; 
+    
+}
+
+.card{
+    width: 13rem !important; 
+    border: 1px solid transparent;
+    border-radius: 15px; 
+}
+.second-section{
+    width: 13rem !important; 
+    background: hsl(235, 46%, 20%);
+    border-bottom: 2px solid transparent;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+#jeremy{
+    background-color:hsl(246, 80%, 60%) !important;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    color: white;
+    font-size: 35px;
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+    .card{
+        width:100% !important; 
+        /* height: 50% !important; */
+        border: 1px solid transparent;
+        border-radius: 15px; 
+    }
+    .card-img-top{
+        width: 20vw;
+        border-bottom-right-radius: white 20px solid !important;
+    }
+    .second-section{
+        width: 100% !important; 
+        background: hsl(235, 46%, 20%);
+        border-bottom: 2px solid transparent;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+    }
+    .info span, p{
+        padding-right: 60px;
+    }
+}
